@@ -1,0 +1,15 @@
+{
+  "name": "@4thex/diff",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "Parses git diff output",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha diff.test.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "^8.2.1"
+  }
+}

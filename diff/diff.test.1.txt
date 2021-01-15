@@ -1,0 +1,21 @@
+--- a/app/src/components/main/main.js
++++ b/app/src/components/main/main.js
+@@ -11,6 +11,7 @@ import {
+ } from "react-router-dom";
+ import About from "../about/about";
+ import Home from "../home/home";
++import WhereAndWhen, { Complete as WhereAndWhenAll} from "../about/where-and-when";
+
+ export default function Main() {
+     return (
+@@ -41,6 +42,10 @@ export default function Main() {
+                         <div>ABOUT</div>
+                         <About />
+                     </Route>
++                    <Route path="/about/where-and-when">
++                        <div>Hvor og hvornår</div>
++                        <WhereAndWhenAll />
++                    </Route>
+                     <Route path="/beliefs">
+                         <div>BELIEFS</div>
+                     </Route>
